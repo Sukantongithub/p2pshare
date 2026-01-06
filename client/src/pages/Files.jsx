@@ -53,7 +53,8 @@ const Files = () => {
     // Client-side validation
     const GUEST_LIMIT_GB = 1;
     const AUTH_LIMIT_GB = 30;
-    const limitBytes = (user ? AUTH_LIMIT_GB : GUEST_LIMIT_GB) * 1024 * 1024 * 1024;
+    const limitBytes =
+      (user ? AUTH_LIMIT_GB : GUEST_LIMIT_GB) * 1024 * 1024 * 1024;
 
     if (file.size > limitBytes) {
       setError(
@@ -250,7 +251,8 @@ const Files = () => {
 
             <div className="text-sm text-gray-400 mt-4">
               <p className="flex items-center gap-2 mb-2">
-                <span className="text-green-400">✓</span> Maximum {guestMode ? "1GB" : "30GB"} per file
+                <span className="text-green-400">✓</span> Maximum{" "}
+                {guestMode ? "1GB" : "30GB"} per file
               </p>
               <p className="flex items-center gap-2 mb-2">
                 <span className="text-green-400">✓</span> Files expire after 24

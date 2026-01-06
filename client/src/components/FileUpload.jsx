@@ -5,7 +5,8 @@ const FileUpload = ({ onFileUpload, isLoading, user }) => {
   const [dragActive, setDragActive] = useState(false);
   const MAX_GUEST_GB = 1;
   const MAX_AUTH_GB = 30;
-  const maxFileSizeBytes = (user ? MAX_AUTH_GB : MAX_GUEST_GB) * 1024 * 1024 * 1024;
+  const maxFileSizeBytes =
+    (user ? MAX_AUTH_GB : MAX_GUEST_GB) * 1024 * 1024 * 1024;
 
   const handleDrag = (e) => {
     e.preventDefault();

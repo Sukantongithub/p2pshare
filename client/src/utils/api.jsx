@@ -48,7 +48,8 @@ export const userAPI = {
 export const subscriptionAPI = {
   getPlans: () => api.get("/subscription/plans"),
   getCurrentSubscription: () => api.get("/subscription/current"),
-  upgradePlan: (planName) => api.post("/subscription/upgrade", { plan: planName }),
+  upgradePlan: (planName) =>
+    api.post("/subscription/upgrade", { plan: planName }),
   cancelSubscription: () => api.post("/subscription/cancel"),
 };
 

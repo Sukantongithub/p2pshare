@@ -7,7 +7,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: linear-gradient(rgba(10, 14, 26, 0.85), rgba(10, 14, 26, 0.90)),
+  background: linear-gradient(rgba(10, 14, 26, 0.85), rgba(10, 14, 26, 0.9)),
     url("/bg.webp") center center / cover fixed no-repeat;
   min-height: 100vh;
   color: #ffffff;

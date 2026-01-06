@@ -97,7 +97,9 @@ const Home = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-20">
           <div className="bg-white/20 backdrop-blur-lg rounded-lg p-8 border border-white/30 shadow-xl">
             <Upload className="w-12 h-12 mb-4 text-blue-300" />
-            <h3 className="text-2xl font-bold mb-4 text-white">Upload & Get Code</h3>
+            <h3 className="text-2xl font-bold mb-4 text-white">
+              Upload & Get Code
+            </h3>
             <p className="text-gray-200 leading-relaxed">
               Upload any file and receive a unique 6-digit access code instantly
             </p>
@@ -105,7 +107,9 @@ const Home = () => {
 
           <div className="bg-white/20 backdrop-blur-lg rounded-lg p-8 border border-white/30 shadow-xl">
             <Globe className="w-12 h-12 mb-4 text-blue-300" />
-            <h3 className="text-2xl font-bold mb-4 text-white">Share Anywhere</h3>
+            <h3 className="text-2xl font-bold mb-4 text-white">
+              Share Anywhere
+            </h3>
             <p className="text-gray-200 leading-relaxed">
               Anyone can download from any location with just the 6-digit code
             </p>
@@ -113,7 +117,9 @@ const Home = () => {
 
           <div className="bg-white/20 backdrop-blur-lg rounded-lg p-8 border border-white/30 shadow-xl">
             <Clock className="w-12 h-12 mb-4 text-blue-300" />
-            <h3 className="text-2xl font-bold mb-4 text-white">24-Hour Access</h3>
+            <h3 className="text-2xl font-bold mb-4 text-white">
+              24-Hour Access
+            </h3>
             <p className="text-gray-200 leading-relaxed">
               Files expire after 24 hours for security and privacy
             </p>
@@ -121,7 +127,9 @@ const Home = () => {
         </div>
 
         <div className="mt-20 bg-white/20 backdrop-blur-lg rounded-lg p-8 border border-white/30 shadow-xl">
-          <h2 className="text-3xl font-bold mb-6 text-center text-white">How It Works</h2>
+          <h2 className="text-3xl font-bold mb-6 text-center text-white">
+            How It Works
+          </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div>
               <div className="flex items-center gap-3 mb-3">
